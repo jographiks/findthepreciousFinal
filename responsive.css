@@ -1,0 +1,231 @@
+/* FONTS */
+@font-face {
+	font-family: "Aniron";
+	src: url(font/'Aniron-7BaP.ttf');
+}
+@font-face {
+	font-family: "partybusiness";
+	src: url(font/'partybusiness.ttf');
+}
+@font-face {
+	font-family: "tengwar";
+	src: url(font/'tngani.ttf');
+}
+
+@media screen and (max-width: 529px){
+ 
+    #carousel h2{
+        display: none;
+    }
+    .carousel-control-prev img, .carousel-control-next img{
+        display: none;
+    } 
+    #fellows{
+        display: none;
+    } 
+    .media-body {
+        display: block;
+    }
+    .ring-capabilities{
+        display: none;
+    }
+    .more-info, .more-info-button{
+        display: none;
+    }
+    .media img{
+        display: none;
+    }
+    .media-body h5, p{
+        text-align: center;
+        font-size: 40px;
+    }
+    #reward p {
+        padding: 40px 0;
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+    #join p {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+    .sub-container{
+        padding: 20px;
+        margin: 0;
+    }
+    .tengani img{
+        width: 20px;
+    }
+    h2{
+        font-size: 20px!important;
+        padding: 20px 20px 0 20px;
+        text-align: center;
+    }
+}
+
+@media(max-width:767px){
+    
+    .caption-h2{
+        font-size: .6em;
+    }
+    #carousel h2{
+        position: absolute;
+        right: 14%;
+        bottom: 6%;
+        padding: 0;
+        font-family: "partybusiness", arial, sans-serif;
+        font-size: 1em;
+        color: #fff;
+        vertical-align: center;
+        line-height: .9em;
+    }
+    .carousel-control-prev img, .carousel-control-next img{
+        width: 30%;
+
+    } 
+
+    #fellows ul {
+       margin: 0 auto;
+       text-align: center!important;     
+    }
+    #fellows ul li {
+       margin: 10px 0;    
+    }
+
+    h2 {
+       margin: 0 auto;
+       text-align: center!important;     
+    }
+
+    .bg-overlay-black{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        width: 100%;
+        height: 81%;
+        overflow: hidden; /* Empêche le dépassement des flottants. */
+        background-color: rgba(31,32,34,.8);
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .bg-overlay-white{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        width: 100%;
+        height: 81%;
+        overflow: hidden; /* Empêche le dépassement des flottants. */
+        background-color: rgba(163,163,163,.6);
+        margin: 0 auto;
+        z-index: 1;
+    }  
+
+    #reward p {
+        text-align: center;
+    }
+    #reward .img-sauron {
+        margin: 0 auto;
+        text-align: center;  
+        padding: 20px 0 40px 0;
+    } 
+
+    #hunters .media{
+       margin-top: 20px;     
+    }
+    
+    #join p{
+        text-align: center;
+    }
+    
+    #join .img-mordor{
+        margin-top: 20px;
+    }
+    
+    #contact .img-map{
+        margin-top: 20px;
+    }
+    
+    footer ul, .site-mentions{
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+    
+    #mentions ul {
+        padding: 0!important;
+    }
+        
+}
+
+@media screen and (max-width: 1200px) and (min-width: 768px){
+    
+    .caption-h2{
+        font-size: .6em;
+    }
+    #carousel h2{
+        position: absolute;
+        left: 0%;
+        padding: 0;
+        font-family: "partybusiness", arial, sans-serif;
+        font-size: 1.5em;
+        color: #fff;
+        line-height: .9em;
+    }
+    
+
+@media screen and (max-width: 1200px) and (min-width: 992px){
+    
+
+    .bg-overlay-black{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        width: 100%;
+        height: 73%;
+        overflow: hidden; /* Empêche le dépassement des flottants. */
+        background-color: rgba(31,32,34,.8);
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .bg-overlay-white{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        width: 100%;
+        height: 67%;
+        overflow: hidden; /* Empêche le dépassement des flottants. */
+        background-color: rgba(163,163,163,.6);
+        margin: 0 auto;
+        z-index: 1;
+    }  
+    
+}
+    
+@media screen and (max-width: 992px) and (min-width: 768px){
+    
+    .bg-overlay-black{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        overflow: hidden; /* Empêche le dépassement des flottants. */
+        background-color: rgba(31,32,34,.8);
+        margin: 0 auto;
+        z-index: 1;
+    }
+    .bg-overlay-white{
+        text-align: center;
+        vertical-align: middle;
+        position: absolute;
+        width: 100%;
+        height: 90%;
+        overflow: hidden; /* Empêche le dépassement des flottants. */
+        background-color: rgba(163,163,163,.6);
+        margin: 0 auto;
+        z-index: 1;
+    }  
+    
+}
+    

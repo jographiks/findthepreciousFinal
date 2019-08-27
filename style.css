@@ -1,0 +1,507 @@
+/* FONTS */
+@font-face {
+	font-family: "Aniron";
+	src: url(font/'Aniron-7BaP.ttf');
+}
+@font-face {
+	font-family: "partybusiness";
+	src: url(font/'partybusiness.ttf');
+}
+@font-face {
+	font-family: "tengwar";
+	src: url(font/'tngani.ttf');
+}
+
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial, sans-serif;
+}
+.container{
+    padding: 0px;
+}
+
+.sub-container{
+    padding: 40px 70px 50px 50px;
+}
+.center{
+    text-align: center;
+    margin: 0 auto;
+}
+h1, h2, h3, h4{
+    font-family: "Aniron", arial, sans-serif;
+}
+p, input, label, select, textarea, button{
+    font-family: "partybusiness", arial, sans-serif;
+}
+input, label, select, textarea, button{
+    font-family: "Aniron", arial, sans-serif;
+    font-size: 14px!important;
+}
+h2{
+    font-size: 19px;
+}
+h3{
+    font-size: 25px;
+    color: #414042;
+}
+ul li{
+    list-style: none;
+}
+a{
+    color: #a7a9ab; 
+}
+.bg-light{
+    background-image: url(img/bg_light.png);
+}
+.bg-black{
+    background-image: url(img/bg_dark.png);
+}
+.black{
+    color: #111;
+}
+.white{
+    color: #fff;
+}
+.grey{
+    color: #d1d3d4;
+}
+.darkgrey{
+    color: #58595b;
+}
+.orange{
+    color: #fa631c;
+}
+.orange-border {
+    height: 4px;
+    background-color: #fa631c;
+}
+.tengani img{
+    width: 40px;
+}
+
+
+/* HEADER */
+.bg-dark{
+    background-color: #fa631c!important;
+}
+.navbar{
+    padding: 0 10px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    margin: 0 ;
+}
+.navbar-brand{
+    padding: 15px 10px;
+}
+.nav-item:hover{
+    border-bottom: solid 5px #fff;
+}
+a.nav-link:hover{
+    color: #fff!important;
+    padding: 0 20px;
+}
+.navbar a{
+    font-family: "Aniron", arial, sans-serif;
+    color: #fff!important;
+    font-size: 15px;
+}
+.nav-item-border{
+    padding: 0 10px;
+    border-right: 1px solid #fff;
+}
+a.nav-link{
+    padding: 0 20px;
+}
+
+
+/* CAROUSEL */
+.slide_img .texte {
+  position:absolute;
+  top:4em;
+  left:4em;
+  color:white;
+  font-size:2em;
+  width:692px;      
+}
+.texte {
+  z-index: 1;     
+}
+.caption-h2{
+    font-size: .6em;
+}
+#carousel h2{
+    font-family: "partybusiness", arial, sans-serif;
+    font-size: 2em;
+    color: #fff;
+    vertical-align: center;
+    width: 900px;
+    padding-left: 50px;
+    padding-top: 80px;
+    line-height: 1em;
+}
+.carousel-control-prev img, .carousel-control-next img{
+    width: 50px;
+}
+
+
+
+/* FELLOWS */
+.section-space{
+    padding-bottom: 75px;
+}
+#fellows h2{
+    padding: 10px 0 50px 0;
+}
+#fellows h3{
+    font-family: "partybusiness", arial, sans-serif;
+    font-size: 28px;
+    color: #d1d3d4;
+}
+#fellows li, a{
+    display: inline-block;
+    margin: 0 20px;
+    font-family: "Aniron", arial, sans-serif;
+    color: #5b5b5b;
+}
+#fellows a:hover{
+    color: #fa631c;
+    text-decoration: none;
+    margin: 0 20px;
+    border-bottom: solid 4px 
+}
+#fellows a span img { 
+    width: 30px;
+}
+
+.card h4{
+    font-family: "partybusiness", arial, sans-serif;
+    font-size: 60px;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    margin: 0 auto;
+    z-index: 2;
+}
+.barre{
+    text-decoration: line-through #fa631c;;
+    z-index: 2;
+}
+#fellows .card p{
+    font-family: "partybusiness", arial, sans-serif;
+    font-size: 30px;
+    color: #111;
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    filter: blur(0)
+    margin: 0 auto;
+    z-index: 3;
+}
+.bg-blur{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    width: 80%;
+    height: 20%;
+    background-color: rgba(255,255,255,.8);
+	-webkit-filter: blur(3px);
+	filter: blur(2px);
+    border-radius: 10px;
+    margin: 0 auto;
+    z-index: 2;
+}
+.bg-overlay-black{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    height: 76%;
+    overflow: hidden; /* Empêche le dépassement des flottants. */
+    background-color: rgba(31,32,34,.8);
+    margin: 0 auto;
+    z-index: 1;
+}
+.bg-overlay-white{
+    text-align: center;
+    vertical-align: middle;
+    position: absolute;
+    width: 100%;
+    height: 76%;
+    overflow: hidden; /* Empêche le dépassement des flottants. */
+    background-color: rgba(163,163,163,.6);
+    margin: 0 auto;
+    z-index: 1;
+}
+.image{
+    overflow: hidden;
+}
+.gimli {
+    font-size: 2em;
+}
+.caption{
+    font-size: 18px;
+}
+.card{
+    background-color: #111;
+    margin: 10px;
+    border-radius: 0px;
+}
+.card-body{
+    padding: 15px;
+}
+.card-text {
+    font-size: 14px;
+}
+.card > img{
+    border-radius: 0px!important;
+    padding: 5px!important;
+}
+.cadre {
+  position: relative;   
+  overflow: hidden;    
+  line-height: 4em;    
+}
+.cadre p {
+  display: block;
+  margin: 20px auto;
+  position: absolute;   
+  left: -100%;          
+  padding: 0.25em 1em;    
+  border-radius: 20px;
+  font-size: 13px!important;
+  color: #eee;          
+  background: rgba(34,31,32,0.8);     
+  transition: all .5s;  
+}
+.cadre:hover p {
+  left: 1.5em;           
+}
+
+
+/* REWARD */
+#reward p{
+    padding: 20px 20px 0px 20px;
+    font-size: 21px;
+}
+#reward img{
+}
+#reward a{
+    text-align: center;
+    line-height: 2.5em;
+    font-family: "Aniron", arial, sans-serif;
+    color:#fa631c;
+    font-size: 1.2em;
+}
+.parallelogramme {
+  width  : 220px;
+  height : 0;
+  border-bottom  : 50px solid #fff;
+  border-left : 20px solid transparent;
+  position : relative;
+}
+.parallelogramme:after {
+  width  : 0;
+  height : 0;
+  content: '';
+  border-top : 50px solid #fff;
+  border-left : 20px solid transparent;
+  border-right   : 20px solid transparent;
+  position : absolute;
+  top  : -0px;
+  right: -20px;
+}
+
+/* HUNTERS */
+#hunters h2{
+    line-height: 0em;
+}
+#hunters p{
+    line-height: 0em;
+    font-size: 1.3em;
+}
+#hunters .underline{
+    border-bottom: solid 1px #111;
+}
+.media-content{
+    padding: 40px 0 20px 20px;
+}
+.media-content h5{
+    font-family: "partybusiness", arial, sans-serif;
+    font-size: 3.1em;
+    color: #fa631c;
+}
+.parallelogramme-black {
+  margin-top: 20px;
+  width  : 170px;
+  height : 0;
+  border-bottom  : 25px solid #111;
+  border-left : 20px solid transparent;
+  position : relative;
+}
+.parallelogramme-black:after {
+  width  : 0;
+  height : 0;
+  content: '';
+  border-top : 25px solid #111;
+  border-left : 20px solid transparent;
+  border-right   : 20px solid transparent;
+  position : absolute;
+  top  : -0px;
+  right: -20px;
+}
+#hunters a{
+    text-align: center;
+    font-family: "Aniron", arial, sans-serif;
+    color:#fa631c;
+    font-size: .9em;
+}
+
+
+
+
+/* RING */
+#ring h5{
+    font-family: "Aniron", arial, sans-serif;
+    font-size: 16px;
+}
+.panel{
+    padding-top: 30px;
+}
+.card-header {
+    color: #fff;
+    background-color: #fa631c;
+    height: 40px;
+    border-radius: 10px 10px 0 0!important;
+    line-height: 0.8em;
+}
+#ring .card-body{
+    background-color: #e6e7e8;
+}
+#ring .golum-img img{
+    width:140px;
+    height:140px;
+}
+#ring p{
+    font-size: 25px;
+    font-weight: 100;
+    line-height: 1.2em;
+    padding: 20px;
+}
+table {
+}
+table th, td {
+    font-family: "Aniron", arial, sans-serif;
+}
+table td {
+    color: #58595b;
+    font-size: 13px;
+}
+.first-line {
+    border-bottom: solid 3px #58595b;!important;
+}
+
+/* CONTACT US */
+#contact hr{
+    margin-top: 100px;
+}
+#contact h2{
+    font-size: 25px;
+}
+#form{
+    margin: 50px auto;
+    width: 80%;   
+}
+.form-group{
+    margin: 20px 0;
+}
+.btn-style{
+    float: right;
+    padding: 10px 40px;
+    background-color: #a7a9ab;
+    border: solid 1px #414042;
+}
+
+
+/* JOIN THE ARMY */
+#join p{
+    padding: 20px 20px 0px 0px;
+    font-size: 22px;
+}
+#join a{
+    line-height: 2.5em;
+    color: #fa631c;
+    text-align: center;
+    font-size: 22px;
+}
+.more-info{
+    font-family: "Aniron", arial, sans-serif;
+    font-size: 19px!important;
+    margin-top: 30px;
+    color: #fa631c; 
+    line-height: 0em;
+}
+.parallelogramme-great {
+  margin-top: 10px;
+  width  : 450px;
+  height : 0;
+  border-bottom  : 60px solid #111;
+  border-left : 20px solid transparent;
+  position : relative;
+  box-shadow: 15px 5px 12px #aaa;
+}
+.parallelogramme-great:after {
+  width  : 0;
+  height : 0;
+  content: '';
+  border-top : 60px solid #111;
+  border-left : 50px solid transparent;
+  border-right   : 30px solid transparent;
+  position : absolute;
+  top  : -0px;
+  right: -31px;
+
+}
+
+/* FOOTER */
+#mentions{
+    padding: 20px;
+    background-color: #fa631c; 
+}
+#mentions a{
+    color: #fff; 
+    font-size: 12px;
+}
+#mentions ul{
+    padding: 0 50px 0 20px;
+}
+#mentions li{
+    padding-top: 5px;
+}
+.site-mentions{
+}
+.site-mentions a{
+    color: #fff; 
+    font-size: 15px!important;
+    padding: 0;
+}
+#mentions p {
+    color: #fff;
+    font-size: 11px!important;
+    font-family: "Aniron", arial, sans-serif;
+}
+#mentions .logo {
+    padding-top:10px;
+    width: 200px;
+}
